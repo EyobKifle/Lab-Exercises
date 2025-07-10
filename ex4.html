@@ -6,32 +6,36 @@
     <title>ex4</title>
 </head>
 <body>
+    <h1>Conference form</h1>
+    <p>Welcome to the conference site i guess here we will talk about someething and we will decied to do something about something here is the link to our site <a href="https://www.helpguide.org">link</a></p>
     <fieldset>
-        <legend><h1>My Form</h1></legend>
+        <legend><h1>Personal Form</h1></legend>
         <form action="">
             <label for="name"> First Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your first name" required>
-            <br>
+            <br><br>
             <label>Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            <br>
+            <br><br>
             <label for="Phone">Phone</label>
             <input type="tele" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-            <br>
-            <label for="date">Date</label>
+            <br><br>
+            <label for="date">Birthdate</label>
             <input type="date" id="date" name="date" required>
-            <br>
+            <br><br>
             <label for="Attendance">Present</label>
             <input type="radio" id="present" name="Attendance" value="present" checked>
-         <label for="Attendance">Absent</label>
+            <br><br>
+            <label for="Attendance">Absent</label>
             <input type="radio" id="Absent" name="Attendance" value="Absent" >
-            <br>
+            <br><br>
             <label for="Workshops">Workshops</label>
             <input type="checkbox" id="workshop1" name="workshops" value="Workshop 1">
-            <br>
+            <br><br>
             <label for="coments"> Comments</label>
-            <br>
-          <textarea name="comments" id="comment1" rols="70" cols="80">Comment here</textarea> <br>
+            <br><br>
+          <textarea name="comments" id="comment1" rows="10" cols="40">Comment here</textarea> <br>
+          <br>
           <input type="submit" value="Submit"> 
           <input type="reset" value="Reset">          
         </form>
