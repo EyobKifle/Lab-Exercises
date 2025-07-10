@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex4</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>My Form</h1></legend>
+        <form action="">
+            <label for="name"> First Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your first name" required>
+            <br>
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <label for="Phone">Phone</label>
+            <input type="tele" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            <br>
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" required>
+            <br>
+            <label for="Attendance">Present</label>
+            <input type="radio" id="present" name="Attendance" value="present" checked>
+         <label for="Attendance">Absent</label>
+            <input type="radio" id="Absent" name="Attendance" value="Absent" >
+            <br>
+            <label for="Workshops">Workshops</label>
+            <input type="checkbox" id="workshop1" name="workshops" value="Workshop 1">
+            <br>
+            <label for="coments"> Comments</label>
+            <br>
+          <textarea name="comments" id="comment1" rols="70" cols="80">Comment here</textarea> <br>
+          <input type="submit" value="Submit"> 
+          <input type="reset" value="Reset">          
+        </form>
+    </fieldset>
+</body>
+</html>
